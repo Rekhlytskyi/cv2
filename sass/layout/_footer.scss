@@ -1,0 +1,13 @@
+.footer {
+    background-color: $--main-background-color;
+    height: 80px;
+    padding: 20px 0;
+}
+
+.footer__title {
+    text-align: center;
+    color: #ffffff;
+    @extend .heading;
+    @include font(20px, 200%);
+
+}

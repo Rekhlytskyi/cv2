@@ -39,7 +39,7 @@ img {
   }
 }
 
-.heading, .lb-art__title, .hero__title, .credentials__title, .credentials__project, .public__title, .awards__title, .exp__title, .exp__company {
+.heading, .lb-art__title, .hero__title, .credentials__title, .credentials__project, .public__title, .awards__title, .exp__title, .exp__company, .footer__title {
   margin: 0;
 }
 
@@ -370,5 +370,18 @@ img {
   line-height: 120%;
   color: rgba(0, 0, 0, 0.7);
   text-align: center;
+}
+
+.footer {
+  background-color: #268ac4;
+  height: 80px;
+  padding: 20px 0;
+}
+
+.footer__title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 200%;
 }
 /*# sourceMappingURL=main.css.map */
