@@ -1,3 +1,15 @@
+.left-bar {
+    @media screen and (min-width: 768px) {
+        padding-top: 20px;
+        border-right: 2px solid $--aux-background-color;
+        background-color: rgba(226, 226, 226, 0.842);
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 400px;
+    }
+}
+
 .lb-art__section {
     padding: 0 10px;
     margin-bottom: 20px;
@@ -18,6 +30,7 @@
     list-style: square;
     @include font(16px, 120%);
     color: $--aux-color;
+    margin-bottom: 10px;
 }
 
 .lb-art__text {

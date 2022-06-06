@@ -7,6 +7,16 @@
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     background-color: $--main-background-color;
+
+    @media screen and (min-width: 768px) {
+        border-bottom-left-radius: 0;
+    }
+}
+
+.header__wrapper {
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
 }
 
 .container--header {
@@ -35,9 +45,18 @@
 .header__name {
     margin: 0;
     color: #ffffff;
+
+    @media screen and (min-width: 768px) {
+        @include font(24px, 120%);
+        text-transform: uppercase;
+    }
 }
 
 .header__description {
     margin: 0;
     color: #ffffff;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
 }

@@ -24,6 +24,13 @@
     @include font(18px, 120%);
     color: $--main-background-color;
     text-decoration: none;
+    transition: color 300ms linear;
+
+    &:hover, 
+    &:focus,
+    &:active {
+        color: blue;
+    }
 }
 
 .exp__time {
