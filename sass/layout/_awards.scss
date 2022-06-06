@@ -1,0 +1,29 @@
+.article--awards {
+        background-color: rgb(247, 247, 186);
+        border: 1px solid $--main-background-color;
+        border-radius: 4px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+.awards__list {
+    @extend .list;
+    background-color: rgb(247, 247, 186);    
+}
+
+.awards__item {
+    @include font(18px, 120%);
+    color: $--aux-color;
+    margin-bottom: 10px;
+    text-align: center;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.awards__title {
+    @extend .heading;
+    @include article-title;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,44 @@
+body {
+    padding-top: 60px;
+    font-family: 'Archivo', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+.article {
+    padding: 0 10px 0 10px;
+    margin-bottom: 20px;
+}
+
+.main-section {
+    padding: 10px 20px;
+}
+
+.main-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 480px) {
+        width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
+}
+
+.heading {
+    margin: 0;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

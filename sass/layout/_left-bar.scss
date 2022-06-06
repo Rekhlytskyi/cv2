@@ -1,0 +1,28 @@
+.lb-art__section {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.lb-art__title {
+    @extend .heading;
+    @include article-title;
+    margin-bottom: 20px;
+}
+
+.lb-art__list {
+    @extend .list;
+    padding-left: 20px;
+}
+
+.lb-art__item {
+    list-style: square;
+    @include font(16px, 120%);
+    color: $--aux-color;
+}
+
+.lb-art__text {
+    @include font(16px, 120%);
+    color: $--aux-color;
+    text-align: center;
+}
+

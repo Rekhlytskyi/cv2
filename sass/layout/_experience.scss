@@ -1,0 +1,42 @@
+.article--exp {
+    padding: 0 40px 10px 40px;
+}
+
+.exp__title {
+    @extend .heading;
+    margin-bottom: 20px;
+    text-align: center;
+    @include article-title;
+}
+
+.exp__list {
+    @extend .list;
+}
+
+.exp__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp__company {
+    @extend .heading;
+    @include font(18px, 120%);
+    color: $--main-background-color;
+    text-decoration: none;
+}
+
+.exp__time {
+    margin: 0 0 10px;
+    @include font(12px, 120%);
+    color: $--aux-color;
+    font-style: italic;
+    text-align: center;
+}
+
+.exp__position {
+    margin: 0 0 10px;
+    @include font(16px, 120%);
+    color: $--aux-color;
+    text-align: center;
+}

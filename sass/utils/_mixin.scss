@@ -1,0 +1,10 @@
+@mixin font ($fs, $lh) {
+    font-size: $fs;
+    line-height: $lh;
+}
+@mixin article-title {
+    font-size: 28px;
+    line-height: 140%;
+    color: rgba(68, 18, 18, 0.781);
+    text-align: center;
+}

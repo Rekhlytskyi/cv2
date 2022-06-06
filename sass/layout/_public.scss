@@ -1,0 +1,39 @@
+.article--public {
+    background-color: rgb(247, 247, 186);
+    border: 1px solid $--main-background-color;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.public__title {
+    @extend .heading;
+    margin-bottom: 20px;
+    text-align: center;
+    @include article-title;
+}
+
+.public__list {
+    @extend .list;
+    padding-left: 25px;
+}
+
+.public__intro {
+    margin: 0 0 10px 0;
+    text-align: justify;
+    color: $--aux-color;
+    @include font(16px, 120%);
+}
+
+.public__item {
+    margin: 0 0 10px 0;
+    text-align: justify;
+    @include font(16px, 120%);
+    font-style: italic;
+    color: $--aux-color;
+    list-style: circle;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
